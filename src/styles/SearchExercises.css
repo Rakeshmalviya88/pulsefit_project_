@@ -1,0 +1,76 @@
+/* Styles for the SearchExercises component */
+
+.search-exercises {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    margin-top: 37px;
+  }
+  
+  .search-title {
+    font-weight: 700;
+    font-size: 44px;
+    margin-bottom: 49px;
+    text-align: center;
+  }
+  
+  .search-box {
+    position: relative;
+    margin-bottom: 72px;
+    width:70%;
+  }
+  
+  .search-input {
+    height: 76px;
+    width: 100%;
+    max-width: 1170px;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 40px;
+  }
+  
+  .search-btn {
+    background-color: #ff2625;
+    color: #fff;
+    text-transform: none;
+    width: 173px;
+    height: 56px;
+    font-size: 20px;
+    border: none;
+    border-radius: 40px;
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+  }
+
+  .search-btn:hover {
+    background-color: #b92f2f;
+    /* border: 1px solid #040101; */
+}
+  
+  .scroll-box {
+    width: 100%;
+    padding: 20px;
+    position: relative;
+  }
+  
+  /* Responsive adjustments */
+  @media (max-width: 600px) {
+    .search-title {
+      font-size: 30px;
+    }
+  
+    .search-input {
+      width: 350px;
+    }
+  
+    .search-btn {
+      width: 80px;
+      height: 56px;
+      font-size: 14px;
+    }
+  }
+  
